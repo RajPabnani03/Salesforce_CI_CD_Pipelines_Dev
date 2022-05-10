@@ -1,0 +1,29 @@
+<apex:page >
+    <apex:sectionHeader title="New Page" subtitle="Proper VF"/>
+    <apex:pageBlock title="This is a Page Block" mode="maindetail">
+        <apex:pageBlockSection title="This is a section with 2 columns">
+            
+            <div>
+                <title>Hello World</title>
+                <h1>
+                    Hello World!!!
+                </h1>
+            </div>
+            <apex:pageBlockSectionItem >
+                <apex:outputLabel >My Label</apex:outputLabel>
+                <apex:outputText >My Text</apex:outputText>
+            </apex:pageBlockSectionItem>
+            <apex:pageBlockSectionItem >
+                <apex:outputLabel >My Label</apex:outputLabel>
+                <apex:outputText >My Text</apex:outputText>
+            </apex:pageBlockSectionItem>
+        </apex:pageBlockSection>
+        <apex:pageBlockSection title="This is a section with 1 column"
+                               collapsible="false">
+            <apex:pageBlockSectionItem >
+                <apex:outputLabel >My Label</apex:outputLabel>
+                <apex:outputText >My Text</apex:outputText>
+            </apex:pageBlockSectionItem>
+        </apex:pageBlockSection>
+    </apex:pageBlock>
+</apex:page>

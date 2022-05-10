@@ -1,0 +1,10 @@
+<aura:component implements="force:appHostable,flexipage:availableForAllPageTypes,flexipage:availableForRecordHome,force:hasRecordId,forceCommunity:availableForAllPageTypes,force:lightningQuickAction" access="global" >
+    
+    <aura:attribute name = "Var1" type="String" default="Test Value"/>
+    <aura:handler name="init" value="{!this}" action="{!c.doInit}"/>
+    
+    <h1>
+    	Components Attribute is : {!v.Var1}
+    </h1>
+	<p> Hello To the First Contact Page Building</p>
+</aura:component>
